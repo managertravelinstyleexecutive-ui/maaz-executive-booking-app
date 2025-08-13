@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [{ "src": "next.config.js", "use": "@vercel/next" }],
+  "env": {
+    "GOOGLE_MAPS_API_KEY": "@google_maps_api_key",
+    "SUMUP_CLIENT_ID": "@sumup_client_id",
+    "SUMUP_CLIENT_SECRET": "@sumup_client_secret",
+    "SUMUP_MERCHANT_CODE": "@sumup_merchant_code",
+    "SMTP_HOST": "@smtp_host",
+    "SMTP_PORT": "@smtp_port",
+    "SMTP_USER": "@smtp_user",
+    "SMTP_PASS": "@smtp_pass"
+  }
+}
